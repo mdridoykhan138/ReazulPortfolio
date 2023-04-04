@@ -1,0 +1,432 @@
+/*################################################### 
+#START
+
+
+RESPONSIVE DEVICE
+=============================
+=============================
+
+1) 1400px devices
+    #home-1400-------------------]
+    1.1-1400 VELUE
+	
+
+2) 1200 xlarge devices
+    #home-1200-------------------]
+    2.1-1200 VELUE
+
+
+3) 992px large devices
+    #home-992-------------------]
+    3.1-992 VELUE
+	
+	
+4) 768px medium devices
+    #home-768-------------------]
+    4.1-768 VELUE
+	
+
+5) 576px small devices
+    #home-576-------------------]
+    5.1-576 VELUE
+
+
+#theEND
+###################################################*/
+
+
+
+/*##############################
+Extra large: ---------
+1) 1400px devices
+##############################*/
+@media screen and (max-width: 1600px){
+    /* 
+    #home-1400-------------------]
+    */
+    /*********************** 
+    1.1-1600 header area here
+    ***********************/
+    header {
+        padding: 24px 0px;
+    }
+    .container {
+        max-width: 1100px;
+    }
+    .headerNavContent {
+        gap: 20px;
+    }
+    .headerNavContent li a {
+        font-size: 14px;
+        gap: 4px;
+    }
+    .headerNavContent li a img {
+        max-width: 14px;
+    }
+
+    /*********************** 
+    1.2-1600 main area here
+    ***********************/
+    .main {
+        padding: 200px 0px 120px;
+    }
+    .subHeader {
+        gap: 10px;
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    .subHeader img {
+        max-width: 20px;
+    }
+    .mainHeader {
+        font-size: 60px;
+        line-height: 120%;
+        margin-bottom: 20px;
+    }
+    .description {
+        font-size: 20px;
+        line-height: 160%;
+    }
+    .description2 {
+        font-size: 20px;
+    }
+    .mainButton {
+        padding: 14px 0px;
+        font-size: 16px;
+    }
+    .workList {
+        grid-gap: 60px;
+        margin-top: 80px;
+    }
+    .academyName a {
+        font-size: 24px;
+    }
+    .workContent .designation {
+        font-size: 14px;
+    }
+    .mainImage {
+        max-width: 50%;
+    }
+
+    /*********************** 
+    1.2-1600 activity area here
+    ***********************/
+    .activityHeaderLink {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .activityItems {
+        grid-template-columns: 1fr 1fr;
+    }
+    .activitySingleImg img {
+        height: auto;
+    }
+    .activityHeading {
+        font-size: 24px;
+        line-height: 130%;
+    }
+    .activityContent ul {
+        padding-left: 26px;
+    }
+    .activityContent ul li::marker {
+        font-size: 20px;
+    }
+    .activityContent ul li:not(:last-child) {
+        margin-bottom: 14px;
+    }
+    .activityContent ul li p {
+        font-size: 16px;
+        line-height: 140%;
+    }
+    .activityDesc p {
+        font-size: 24px;
+        line-height: 140%;
+    }
+
+    /*********************** 
+    1.2-1600 cta area here
+    ***********************/
+    .ctaHeader {
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .ctaItems .ctaItem:nth-child(2) {
+        max-width: 300px;
+    }
+    .fotterCopyRight p {
+        font-size: 16px;
+    }
+
+
+}
+
+
+
+/*##############################
+Extra large: ---------
+1) 1400px devices
+##############################*/
+@media screen and (max-width: 1400px){
+    /* 
+    #home-1400-------------------]
+    */
+    /*********************** 
+    1.1-1400 header area here
+    ***********************/
+    
+
+}
+
+/*############################## 
+Extra large: ---------
+2) 1200 xlarge devices
+##############################*/
+@media screen and (max-width: 1200px){
+    /* 
+    #home-1200-------------------]
+    */
+
+    /*********************** 
+    2.1-1200 what area here
+    ***********************/
+
+
+
+}
+
+/*############################## 
+large layout:  --------- 
+3) 992px large devices
+##############################*/
+@media screen and (max-width: 991px){
+    /* 
+    #home-992-------------------]
+    */
+
+    /***********************
+    3.1-992 header area here
+    ***********************/
+    header {
+        padding: 13px 0px;
+    }
+
+    /***********************
+    3.2-992 main area here
+    ***********************/
+    .main {
+        padding: 160px 0px 120px;
+    }
+    .subHeader {
+        font-size: 16px;
+    }
+    .subHeader img {
+        max-width: 16px;
+    }
+    .mainHeader {
+        font-size: 40px;
+    }
+    .description {
+        font-size: 12px;
+    }
+    .description2 {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .academyName a {
+        font-size: 20px;
+    }
+    .workContent .designation {
+        font-size: 12px;
+    }
+    .workList {
+        grid-gap: 40px;
+        margin-top: 60px;
+    }
+    .mainImage {
+        max-width: 66%;
+    }
+
+    /***********************
+    3.3-992 activity area here
+    ***********************/
+    .activity {
+        padding: 0px 0px 80px;
+    }
+    .activityHeaderLink {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .activityDesc {
+        margin-top: 40px;
+    }
+    .activityDesc p {
+        font-size: 18px;
+        line-height: 140%;
+        padding: 0px 80px;
+    }
+
+    .activityItems {
+        gap: 40px;
+    }
+
+    /***********************
+    3.4-992 cta area here
+    ***********************/
+    .cta {
+        padding: 80px 0px;
+    }
+    .ctaItems {
+        flex-direction: column;
+        grid-gap: 40px;
+    }
+    .ctaContent {
+        text-align: center;
+    }
+    .ctaHeader {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .ctaDesc {
+        font-size: 18px;
+    }
+    .ctaButtons {
+        gap: 20px;
+    }
+
+    /***********************
+    3.4-992 fotter area here
+    ***********************/
+    .fotter {
+        padding: 30px 0px;
+    }
+    .fotterCopyRight p {
+        font-size: 14px;
+    }
+
+}
+
+/*############################## 
+Medium Layout: ---------
+4) 768px medium devices
+##############################*/
+@media screen and (max-width: 768px){
+    /* 
+    #home-768-------------------]
+    */
+
+    /*********************** 
+    5.1-576 header area here
+    ***********************/
+    .headerContainer {
+        justify-content: center;
+    }
+    .headerNav {
+        display: none;
+    }
+
+    /*********************** 
+    5.1-576 main area here
+    ***********************/
+    .main {
+        padding: 120px 0px 80px;
+    }
+    .mainContent {
+        max-width: 100%;
+        text-align: center;
+    }
+    .subHeader {
+        justify-content: center;
+    }
+    .buttonItems {
+        max-width: 350px;
+        margin: 40px auto 0px;
+        flex-direction: column;
+    }
+    .buttonItem a {
+        width: 100%;
+    }
+    .socialLists {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .mainImage {
+        max-width: 375px;
+        left: 50%;
+        bottom: 80px;
+        transform: translateX(-50%);
+    }
+    .workList {
+        justify-content: center;
+        gap: 30px;
+        margin-top: 340px;
+        background: linear-gradient(180deg, rgba(25, 26, 28, 0) 0%, #191A1C 39.06%);
+    }
+    .workContent {
+        text-align: center;
+    }
+    .academyName a {
+        font-size: 16px;
+    }
+    .workContent .designation {
+        font-size: 10px;
+    }
+    .academyName {
+        margin-bottom: 6px;
+    }
+
+    /*********************** 
+    5.1-576 activity area here
+    ***********************/
+    .activityItems {
+        grid-template-columns: auto;
+    }
+    .activityDesc p {
+        line-height: 160%;
+        padding: 0;
+    }
+
+    /*********************** 
+    5.1-576 fotter area here
+    ***********************/
+    .fotterItmes {
+        gap: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+}
+
+/*############################## 
+Small Layout: ---------
+5) 576px small devices
+##############################*/
+@media screen and (max-width: 576px){
+    
+    /* 
+    #home-576-------------------]
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*########################
+#theEndRESPONSIVE########################
+########################*/
